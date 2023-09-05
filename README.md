@@ -1,5 +1,7 @@
 # Shadowsocks, Cloak, Tun2socks configuration
 
+WARNING: This configuration has problems with UDP traffic (voip, games, etc). The problem is still unclear.
+
 ## Data is transmitted through a chain:
 - Computer in the local network
 - Tun2socks on the local server (forwards all traffic to Shadowsocks)
